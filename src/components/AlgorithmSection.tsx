@@ -1,4 +1,10 @@
 const AlgorithmSection = () => {
+ return (
+  <section className="hidden">
+    {AlgorithmSection.tsx}
+  </section>
+);
+
   return (
     <section className="bg-muted/30 py-16 transition-colors duration-300">
       <div className="max-w-4xl mx-auto px-6">
@@ -25,4 +31,4 @@ const AlgorithmSection = () => {
   );
 };
 
-export default AlgorithmSection;
+export default AlgorithmSection;8

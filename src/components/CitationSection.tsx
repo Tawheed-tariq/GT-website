@@ -5,14 +5,15 @@ import { useState } from "react";
 const CitationSection = () => {
   const [copied, setCopied] = useState(false);
 
-  const bibtex = `@article{ashraf2024dmastermaskannealedtransformer,
-        title={D-MASTER: Mask Annealed Transformer for Unsupervised Domain Adaptation in Breast Cancer Detection from Mammograms},
-        author={Tajamul Ashraf and Krithika Rangarajan and Mohit Gambhir and Richa Gabha and Chetan Arora},
-        year={2024},
-        eprint={2407.06585},
-        archivePrefix={arXiv},
-        primaryClass={cs.CV},
-        url={https://arxiv.org/abs/2407.06585},
+  const bibtex = `@misc{ashraf2025contextawaregroundedteacher,
+      title={Context Aware Grounded Teacher for Source Free Object Detection}, 
+      author={Tajamul Ashraf and Rajes Manna and Partha Sarathi Purkayastha and Tavaheed Tariq and Janibul Bashir},
+      year={2025},
+      eprint={2504.15404},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2504.15404}, 
+}},
   }`;
 
   const copyToClipboard = async () => {

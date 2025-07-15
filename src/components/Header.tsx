@@ -4,11 +4,11 @@ import ThemeToggle from "./ThemeToggle";
 
 const Header = () => {
   const links = [
-    { label: "Paper", url: "#", icon: FileText },
-    { label: "Code", url: "#", icon: Github },
-    { label: "arXiv", url: "#", icon: ExternalLink },
-    { label: "Data", url: "#", icon: Database },
-    { label: "Demo", url: "#", icon: Monitor },
+    { label: "Paper", url: "https://arxiv.org/pdf/2504.15404", icon: FileText },
+    { label: "Code", url: "https://github.com/Tawheed-tariq/Grounded_Teacher", icon: Github },
+    { label: "arXiv", url: "https://arxiv.org/abs/2504.15404", icon: ExternalLink },
+   // { label: "Data", url: "#", icon: Database },
+    //{ label: "Demo", url: "#", icon: Monitor },
   ];
 
   return (
@@ -17,7 +17,8 @@ const Header = () => {
       
         {/* Title */}
         <h1 className="text-4xl md:text-5xl font-bold text-center mb-6 text-foreground leading-tight animate-fade-in">
-          <span className="font-extrabold text-primary">D-MASTER</span>: Mask Annealed Transformer for Unsupervised Domain Adaptation in Breast Cancer Detection from Mammograms
+          <span className="font-extrabold text-primary">Grounded_Teacher</span>: Context Aware Grounded Teacher for Source Free Object
+ Detection
         </h1>
 
         {/* Conference Badge */}
@@ -36,18 +37,18 @@ const Header = () => {
         <div className="text-center mb-6">
           <div className="text-lg text-muted-foreground space-x-2 flex flex-wrap justify-center items-center gap-1">
             <a href="https://www.tajamulashraf.com/" className="text-primary hover:underline">Tajamul Ashraf</a>
-            <span className="text-sm">1</span>,
-            <a href="https://scholar.google.com/citations?user=6A3dai4AAAAJ" className="text-primary hover:underline">Krithika Rangarajan</a>
-            <span className="text-sm">2</span>,
-            <a href="https://www.linkedin.com/in/mohit-gambhir-2ba41b254/?originalSubdomain=in" className="text-primary hover:underline">Mohit Gambhir</a>
-            <span className="text-sm">2</span>,
-            <a href="https://www.linkedin.com/in/dr-richa-gauba-34000210b/?original_referer=https%3A%2F%2Fwww%2Ebing%2Ecom%2F&originalSubdomain=in" className="text-primary hover:underline">Richa Gabha</a>
-            <span className="text-sm">2</span>,
-            <a href="https://www.cse.iitd.ac.in/~chetan/" className="text-primary hover:underline">Chetan Arora</a>
-            <span className="text-sm">1</span>
+            <span className="text-sm">1,2</span>,
+            <a href="linkedin.com/in/rajes-manna-489110212" className="text-primary hover:underline">Rajes Manna</a>
+            <span className="text-sm">4</span>,
+            <a href="https://psindiap.github.io/" className="text-primary hover:underline"> Partha Sarathi Purkayastha</a>
+            <span className="text-sm">3</span>,
+             <a href="https://tavaheed.netlify.app/" className="text-primary hover:underline"> Tavaheed Tariq</a>
+            <span className="text-sm">4</span>
+            <a href="https://www.janibbashir.com/" className="text-primary hover:underline"> Janibul Bashir</a>
+            <span className="text-sm">4</span>
           </div>
           <div className="text-sm text-muted-foreground mt-2">
-            <span className="text-sm">1</span>Indian Institute of Technology Delhi, <span className="text-sm">2</span>AIIMS Delhi
+            <span className="text-sm">1 </span>Department of Computer Vision, MBZUAI, Masdar City, 11058, Abu Dhabi, UAE, <span className="text-sm">2 </span>School of Information Technology, IIT Delhi, Hauz Khas, 180037, New Delhi, India.,<span className="text-sm">3 </span>Microsoft Research India, Bengaluru, 560001, Karnataka, India.,<span className="text-sm">4 </span>Department of Information Technology, NIT Srinagar, Hazratbal, 190007, J&K, India.
           </div>
         </div>
 

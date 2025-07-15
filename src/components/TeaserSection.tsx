@@ -5,8 +5,8 @@ const TeaserSection = () => {
         {/* Main Teaser Image */}
         <div className="text-center mb-8 animate-fade-in">
           <img 
-            src="https://dmaster-iitd.github.io/webpage/static/images/teasor.png" 
-            alt="D-MASTER Teaser Results" 
+            src="1mg1.png"
+            alt="grounded teacher Teaser " 
             className="w-full max-w-3xl mx-auto rounded-lg shadow-medium hover-scale transition-all duration-300"
           />
         </div>
@@ -14,9 +14,10 @@ const TeaserSection = () => {
         {/* Caption */}
         <div className="text-center">
           <p className="text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-            Fig. (a) and (b) depict false positive predictions by current teacher student models in cross-domain <strong>BCDM</strong>. 
-            Red boxes indicate ground truth, yellow boxes show Adaptive Teacher predictions, and green boxes indicate predictions from <strong>D-MASTER</strong>. 
-            As shown in (c), our approach effectively mitigates the domain gap and makes accurate predictions.
+            Fig. (a) illustrates the overall architecture of our proposed cross-domain detection framework.
+             The Relation Contextual Module <strong>(RCM) </strong>distinguishes between source-similar and source-dissimilar instances to guide a teacher-student detector pair, aided by pseudo-labeling.
+              A discriminator and Gradient Reversal Layer <strong>(GRL)</strong> further support domain adaptation. Fig. (b) introduces an Expert Branch that uses a pretrained LVFM Embedder to inject expert-level knowledge via text prompts,
+               helping align features semantically and reducing false predictions across domains.
           </p>
         </div>
       </div>

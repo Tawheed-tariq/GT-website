@@ -1,4 +1,10 @@
 const AblationSection = () => {
+ return (
+  <section className="hidden">
+    {AblationSection.tsx}
+  </section>
+);
+
   return (
     <section className="bg-muted/30 py-16">
       <div className="max-w-5xl mx-auto px-6">
