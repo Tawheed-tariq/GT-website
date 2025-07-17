@@ -48,8 +48,12 @@ const Header = () => {
             <span className="text-sm">4</span>
           </div>
           <div className="text-sm text-muted-foreground mt-2">
-            <span className="text-sm">1 </span>Department of Computer Vision, MBZUAI, Masdar City, 11058, Abu Dhabi, UAE, <span className="text-sm">2 </span>School of Information Technology, IIT Delhi, Hauz Khas, 180037, New Delhi, India.,<span className="text-sm">3 </span>Microsoft Research India, Bengaluru, 560001, Karnataka, India.,<span className="text-sm">4 </span>Department of Information Technology, NIT Srinagar, Hazratbal, 190007, J&K, India.
-          </div>
+  <div><span className="text-sm">1 </span>Department of Computer Vision, MBZUAI, Masdar City, 11058, Abu Dhabi, UAE.</div>
+  <div><span className="text-sm">2 </span>School of Information Technology, IIT Delhi, Hauz Khas, 180037, New Delhi, India.</div>
+  <div><span className="text-sm">3 </span>Microsoft Research India, Bengaluru, 560001, Karnataka, India.</div>
+  <div><span className="text-sm">4 </span>Department of Information Technology, NIT Srinagar, Hazratbal, 190007, J&K, India.</div>
+</div>
+
         </div>
 
         {/* Action Buttons */}

@@ -3,7 +3,7 @@ const ResultsSection = () => {
     <section className="bg-background py-16 transition-colors duration-300">
       <div className="max-w-5xl mx-auto px-6">
         <h2 className="text-3xl font-bold text-center mb-12 text-foreground">
-          Quantitative Results on Mammogram Datasets
+          Quantitative Results on Datasets
         </h2>
         
         {/* Evaluation Metric */}
@@ -29,12 +29,12 @@ const ResultsSection = () => {
         {/* Results Table */}
         <div className="text-center mb-16 space-y-8">
   <img 
-    src="t12.png" 
+    src="images/t12.png" 
     alt="Quantitative Results Table 1" 
     className="w-full max-w-5xl mx-auto rounded-lg shadow-medium" 
   />
   <img 
-    src="t34.png" 
+    src="images/t34.png" 
     alt="Quantitative Results Table 2" 
     className="w-full max-w-5xl mx-auto rounded-lg shadow-medium" 
   />
@@ -60,15 +60,24 @@ scale objects. Also in Fig 5, we show how qualitatively the predictions are impr
           
           <div className="text-center">
             <img 
-              src="img5.png" 
+              src="images/img5.png" 
               alt="Qualitative Results Comparison" 
               className="w-full max-w-5xl mx-auto rounded-lg shadow-medium"
             />
             <img 
-    src="fig3.png" 
+    src="images/fig3.png" 
     alt="Quantitative Results Table 2" 
     className="w-full max-w-5xl mx-auto rounded-lg shadow-medium" 
   />
+  <div className="text-center">
+          <p className="text-muted-foreground leading-relaxed max-w-3xl mx-auto">
+            Fig. 3: <strong>FROC analysis of model generalization on unseen target domains.</strong> Performance comparison
+ between our method (GT) and the MT baseline for detection tasks under domain shift: (a) DDSM→INBreast (410
+ images), (b) DDSM→RSNA (993 images), and (c) RSNA→INBreast (410 images), where our method demon
+strates superior performance across different domain shifts. Higher curves indicate better trade-offs between
+ sensitivity (TPR) and false positives per image (FPI).
+          </p>
+        </div>
           </div>
         </div>
       </div>
